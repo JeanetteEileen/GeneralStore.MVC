@@ -6,7 +6,7 @@
     <h1>General Store</h1>
     <p class="lead">
         Our General Store, located in rural Indiana, is host to a multitude of fine food and items of distinction.<br />
-        Come browse our products and see what we have for you
+        Come browse our products and see what we have for you.
     </p>
     @Html.ActionLink("Learn More About Us", "About")
 </div>
@@ -26,8 +26,8 @@
         @Html.ActionLink("Check Customers", "Index", "Customer", null, new { @class = "btn btn-primary btn-large" })
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Transactions</h2>
+        <p>A customer can create an order and view all their orders</p>
+        @Html.ActionLink("Check Customer Transaction", "Index", "Transaction", null, new {@class="btn btn-primary btn-large"})
     </div>
 </div>
